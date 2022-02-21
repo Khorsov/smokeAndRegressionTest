@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-21T06:38:00.421Z",
+        "line": 4,
+        "name": "Open store page",
+        "description": "",
+        "id": "open-google;open-store-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9219000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens google page",
+            "match": {
+              "location": "smoke.step_definition.OpenStorePage.user_opens_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1354000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click store",
+            "match": {
+              "location": "smoke.step_definition.OpenStorePage.user_click_store()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user can see expected title",
+            "match": {
+              "location": "smoke.step_definition.OpenStorePage.user_can_see_expected_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Open Google",
+    "description": "  Open page",
+    "id": "open-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Openpagestore.feature",
+    "tags": []
+  }
+]
